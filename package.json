@@ -1,0 +1,27 @@
+{
+  "name": "phoenixserver",
+  "version": "1.0.0",
+  "description": "Phoenix's OS Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon node app.js",
+    "style": "nodemon -e sass -x \"node sass.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ph0enixKM/PhoenixServer.git"
+  },
+  "author": "Phoenix Arts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ph0enixKM/PhoenixServer/issues"
+  },
+  "homepage": "https://github.com/Ph0enixKM/PhoenixServer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4",
+    "pug": "^2.0.3"
+  }
+}
